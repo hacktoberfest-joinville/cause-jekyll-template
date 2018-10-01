@@ -1,20 +1,21 @@
 # ----
 # Site
 
-title: Cause Template
-url: https://clean-oryx.cloudvent.net
+title: Hacktoberfest Joinville
+url:
 baseurl:
 google_analytics_key:
+google_maps_api:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a not-for-profit organisation.
+description: O Hacktoberfest 2018 começou! Vamos celebrar em uma grande festa o mundo open source com bebidas, comida, boa companhia e muito aprendizado!
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Cause Template
+  name: Hacktoberfest Joinville
   links:
     - https://github.com/CloudCannon/cause-jekyll-template
 
@@ -50,18 +51,26 @@ defaults:
     values:
       layout: "default"
 
-donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
-newsletter_action: "//your-mailchimp-action-url.com"
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-octicons
+  - jekyll-assets
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENCE
+
+assets:
+  destination: "/assets"
+  compression: false # true on JEKYLL_ENV=production
+  gzip: false
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
+    img: { integrity: false } # true on JEKYLL_ENV=production
 
 # -----------
 # CloudCannon
