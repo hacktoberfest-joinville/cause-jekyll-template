@@ -55,7 +55,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-octicons
-  - jekyll-assets
 
 exclude:
   - Gemfile
