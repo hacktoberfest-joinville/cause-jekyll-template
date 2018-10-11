@@ -78,7 +78,6 @@ nav .button {
     box-sizing: border-box;
     margin: 70px 0px;
     width: 100%;
-    // border: 1px solid $blue-color;
     border-radius: 3px;
     padding: 0 30px 25px 30px;
     @media #{$desktop} {
@@ -295,10 +294,6 @@ footer {
       padding: 0 30px;
     }
   }
-
-  // h2 {
-  //   text-align: left;
-  // }
 }
 
 .darker {
@@ -331,4 +326,31 @@ footer {
 
 .map {
   height: 400px;
+}
+
+.center {
+  text-align: center;
+}
+
+.events {
+  @extend .thirds;
+  margin: auto;
+
+  li {
+    background-color: $white-color;
+    margin: 0 10px 30px 10px;
+
+    h1, h2, h3, p {
+      color: $crimson-color !important;
+    }
+
+    p, a {
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration-line: none;
+      color: $blue-color;
+    }
+  }
 }
