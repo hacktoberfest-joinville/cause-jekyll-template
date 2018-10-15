@@ -309,6 +309,19 @@ footer {
   }
 }
 
+.orange {
+  background-color: #FF9A56;
+  color: $white-color;
+  p {
+    color: $white-color !important;
+  }
+  .container {
+    h1, h2, h3 {
+      color: $white-color;
+    }
+  }
+}
+
 .share {
   background-color: #411e2f;
   border-radius: 16px;
@@ -330,6 +343,19 @@ footer {
 
 .center {
   text-align: center;
+}
+
+.sponsors {
+  padding: 50px 0 50px 0;
+
+  h2 {
+    color: white
+  }
+
+  img {
+    width: 350px;
+    margin: 0px 10px 0px 10px
+  }
 }
 
 .events {
