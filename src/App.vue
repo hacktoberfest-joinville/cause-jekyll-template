@@ -2,6 +2,7 @@
   <div id="app">
     <section class="hero header-and-description">
       <Header />
+      <Description />
     </section>
 
     <!--
@@ -10,20 +11,18 @@
       LOCATIONS
       SPONSORSHIP
     -->
-
-    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Description from './components/Description.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
-    HelloWorld,
+    Description,
   },
 };
 </script>
@@ -31,13 +30,9 @@ export default {
 <style lang="scss">
 @import "./assets/style/import.scss";
 
-#app {
-  text-align: center;
-  color: $text-color;
-}
-
 .header-and-description {
-  background-image: url(https://hacktoberfest.digitalocean.com/bg-left.png), url(https://hacktoberfest.digitalocean.com/bg-right.png);
+  background-image: url(https://hacktoberfest.digitalocean.com/bg-left.png),
+    url(https://hacktoberfest.digitalocean.com/bg-right.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   padding-top: 30px;
