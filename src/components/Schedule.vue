@@ -5,11 +5,7 @@
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
 
         <magic-grid :maxColWidth="350">
-          <div v-for="(meeting, e) in meetings" :key="e">
-            <p class="description">
-              {{ meeting }}
-            </p>
-          </div>
+          <MeetingCard v-for="(meeting, e) in meetings" :key="e" :meeting="meeting" />
         </magic-grid>
       </div>
     </div>
@@ -17,9 +13,13 @@
 </template>
 
 <script>
+import MeetingCard from '@/components/MeetingCard.vue';
+
 export default {
   name: 'Schedule',
+  components: { MeetingCard },
   props: {
+    // TODO: ordenar os encontros por ordem de data e hora
     meetings: { type: Array, default: () => [] },
   },
 };
