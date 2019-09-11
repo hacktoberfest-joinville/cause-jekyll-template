@@ -5,14 +5,14 @@
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
         <p class="description">{{ schedule }}</p>
 
-        <div class="columns is-multiline">
-          <div v-for="i in 15" :key="i" class="column is-half">
+        <magic-grid :maxColWidth="350">
+          <div v-for="i in 15" :key="i">
             <h1
               class="title"
               style="color: #fff; font-weight: normal; font-size: 36px; margin-top: 40px;"
             >Spread the word!</h1>
           </div>
-        </div>
+        </magic-grid>
       </div>
     </div>
   </div>
