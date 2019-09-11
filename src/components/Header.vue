@@ -14,6 +14,7 @@
 
       <div class="navbar-menu is-active">
         <div class="navbar-end">
+          <!-- TODO: Criar as páginas para cada local de evento -->
           <router-link
             v-for="route in routes"
             :key="route.name"
@@ -32,7 +33,7 @@ export default {
   data: () => ({
     routes: [
       { path: '/catolica', name: 'Católica' },
-      { path: '/fablab', name: 'FabLab' },
+      { path: '/fablab', name: 'Fab Lab' },
       { path: '/udesc', name: 'Udesc' },
     ],
   }),

@@ -8,6 +8,7 @@
     <RouterView />
 
     <!-- TODO: adicionar os patrocinadores -->
+    <!-- <Sponsors /> -->
   </div>
 </template>
 
