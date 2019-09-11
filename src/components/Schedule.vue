@@ -4,9 +4,11 @@
       <div class="content">
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
 
-        <magic-grid :maxColWidth="350">
-          <MeetingCard v-for="(meeting, e) in meetings" :key="e" :meeting="meeting" />
-        </magic-grid>
+        <div class="row">
+          <div v-for="(meeting, e) in meetings" :key="e" class="col-12-sm col-4">
+            <MeetingCard :meeting="meeting" />
+          </div>
+        </div>
       </div>
     </div>
   </div>

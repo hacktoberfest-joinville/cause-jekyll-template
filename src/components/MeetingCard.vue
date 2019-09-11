@@ -26,7 +26,6 @@ export default {
 
 <style lang="scss" scoped>
 .meeting-card {
-  width: 100%;
   background-color: #39486f;
   vertical-align: top;
   padding: 0;
