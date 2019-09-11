@@ -1,51 +1,13 @@
 @import "./assets/style/variables.scss";
 
 @import "./assets/style/main.scss";
-
 @import "./assets/style/components/container.scss";
 @import "./assets/style/components/navbar.scss";
 @import "./assets/style/components/hero.scss";
 @import "./assets/style/components/column.scss";
 @import "./assets/style/components/minireset.scss";
-
-body {
-  background: $background-color;
-
-  font-family: Space Mono, monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  margin: 0;
-  padding: 0;
-
-  color: #4a4a4a;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-noscript {
-  background: $white;
-  width: 100%;
-  display: block;
-  text-align: center;
-}
-
-iframe {
-  height: inherit;
-}
-
-h1 a,
-p a,
-li a {
-  color: $blue;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-h1 a:hover,
-p a:hover,
-li a:hover {
-  color: $pink;
-}
+@import "./assets/style/components/text-style.scss";
+@import "./assets/style/components/content.scss";
+@import "./assets/style/components/text.scss";
+@import "./assets/style/components/modal.scss";
+@import "./assets/style/components/button.scss";
