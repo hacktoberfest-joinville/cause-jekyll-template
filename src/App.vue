@@ -2,27 +2,29 @@
   <div id="app">
     <section class="hero header-and-description">
       <Header />
-      <Description />
+      <Description v-if="isHome" />
     </section>
 
-    <!--
-      DESCRIPTION
-      AGENDA
-      LOCATIONS
-      SPONSORSHIP
-    -->
+    <RouterView />
+
+    <!-- TODO: adicionar os patrocinadores -->
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Description from './components/Description.vue';
+import Header from '@/components/Header.vue';
+import Description from '@/components/Description.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
     Description,
+  },
+  computed: {
+    isHome() {
+      return this.$route.name === 'Home';
+    },
   },
 };
 </script>
