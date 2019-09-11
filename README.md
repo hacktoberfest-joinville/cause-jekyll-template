@@ -1,4 +1,4 @@
-# 2019-edition
+# Hacktoberfest - Joinville
 
 ## Project setup
 ```
