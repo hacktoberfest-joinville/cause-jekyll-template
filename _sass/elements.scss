@@ -3,138 +3,148 @@
 //   padding: 0;
 // }
 
-html, body {
+html,
+body {
   background-color: $white-color;
-	color: $paragraph-color;
-	font-family: $paragraph-font-family;
-	font-weight: $paragraph-weight;
-	margin: 0;
-	min-width: 380px;
-	padding: 0;
+  color: $paragraph-color;
+  font-family: $paragraph-font-family;
+  font-weight: $paragraph-weight;
+  margin: 0;
+  min-width: 380px;
+  padding: 0;
   // height: 100%;
   // width: 100%;
 }
 
-header, footer {
-	background-color: #582d41;
+header,
+footer {
+  background-color: #0a142e;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 hr {
-	background-color: #236ace;
-	border: 0;
-	height:1px;
-	margin-bottom: 50px;
+  background-color: #236ace;
+  border: 0;
+  height: 1px;
+  margin-bottom: 50px;
 }
 
-h1, h2, h3, h4 {
-	color: $header-color;
-	font-family: $header-font-family;
-	font-weight: $header-weight;
-	text-align: center;
+h1,
+h2,
+h3,
+h4 {
+  color: $header-color;
+  font-family: $header-font-family;
+  font-weight: $header-weight;
+  text-align: center;
 
-	a {
-		color: $header-color;
-		font-family: $header-font-family;
-		font-weight: $header-weight;
-		text-decoration: none;
-	}
+  a {
+    color: $header-color;
+    font-family: $header-font-family;
+    font-weight: $header-weight;
+    text-decoration: none;
+  }
 }
 
 h1 {
-	font-size: 3em;
-	margin: 0 0 20px 0;
-	padding: 0;
+  font-size: 3em;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 h2 {
-	font-size: 2.3em;
-	margin: 0 0 30px 0;
+  font-size: 2.3em;
+  margin: 0 0 30px 0;
 }
 
 h3 {
-	font-size: 1.8em;
-	margin: 20px 0 20px 0;
+  font-size: 1.8em;
+  margin: 20px 0 20px 0;
 }
 
-p, pre {
-	color: $paragraph-color;
-	font-family: $paragraph-font-family;
-	font-size: 1.3em;
-	font-weight: $paragraph-weight;
+p,
+pre {
+  color: $paragraph-color;
+  font-family: $paragraph-font-family;
+  font-size: 1.3em;
+  font-weight: $paragraph-weight;
   line-height: 1.4em;
   text-align: justify;
 }
 
 nav {
-	padding: 30px 0;
-	svg {
-		fill: $brand-color;
-		height: 35px;
-	}
+  padding: 30px 0;
+  svg {
+    fill: $brand-color;
+    height: 35px;
+  }
 }
 
 section {
-	padding: 60px 0;
+  padding: 60px 0;
 }
 
 form {
-	display: flex;
-	margin: 0 auto;
-	max-width: 500px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 500px;
 
-	input[type="text"] {
-		border: 1px solid $amber-color;
-		flex-grow: 1;
-		flex-shrink: 1;
-		width: 100%;
+  input[type="text"] {
+    border: 1px solid $amber-color;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
 
-		&, &:focus {
-			border-bottom-left-radius: 30px;
-			border-top-left-radius: 30px;
-		}
+    &,
+    &:focus {
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+    }
 
-		&:focus {
-			box-shadow: 0 0 5px 0 $amber-color;
-			outline: none;
-		}
-	}
+    &:focus {
+      box-shadow: 0 0 5px 0 $amber-color;
+      outline: none;
+    }
+  }
 
-	input[type="submit"] {
-		border-bottom-right-radius: 30px;
-		border-top-right-radius: 30px;
+  input[type="submit"] {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 
-		&:hover {
-			background: darken($amber-color, 5%);
-		}
-	}
+    &:hover {
+      background: darken($amber-color, 5%);
+    }
+  }
 }
 
-.button a, input[type="submit"], input[type="text"] {
-	border: 0;
-	box-sizing: content-box;
-	font-size: 1em;
-	font-weight: 100;
-	padding: 15px 40px;
+.button a,
+input[type="submit"],
+input[type="text"] {
+  border: 0;
+  box-sizing: content-box;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 15px 40px;
 }
 
-.button a, input[type="submit"] {
-	background: $amber-color;
-	color: $button-color;
-	cursor: pointer;
-	font-weight: bold;
+.button a,
+input[type="submit"] {
+  background: #ffc337;
+  color: $button-color;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .button a {
-	border-radius: 5px;
-	display: inline-block;
-	text-decoration: none;
-	transition: 200ms ease-in background;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 200ms ease-in background;
 
-	&:hover {
-		background: darken($amber-color, 10%);
-	}
+  &:hover {
+    background: darken(#ffc337, 10%);
+  }
 }

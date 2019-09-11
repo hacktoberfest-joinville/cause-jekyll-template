@@ -1,4 +1,6 @@
-# http://hacktoberfest.joinville.br
+# Hacktoberfest - Joinville
+
+## Running locally
 
 ```sh
 bundle install
