@@ -23,8 +23,8 @@ function initMap() {
   ];
 
   var MAP_OPTIONS = {
-    center: { lat: -26.3012302, lng: -48.8511812 },
-    zoom: 17,
+    center: { lat: -26.274677, lng: -48.852229 },
+    zoom: 13,
     disableDefaultUI: true,
     scrollwheel: false,
     zoomControl: true,
@@ -33,11 +33,20 @@ function initMap() {
     }
   };
 
+  var MARKER_OPTIONS = [
+    { lat: -26.3012302, lng: -48.8511812 },
+    { lat: -26.252199, lng: -48.854189 },
+    { lat: -26.304272, lng: -48.850767 }
+  ];
+
   var $mapContainer = $(".js-map")[0];
   var styledMapType = new google.maps.StyledMapType(MAP_STYLE_OPTIONS);
   var map = new google.maps.Map($mapContainer, MAP_OPTIONS);
 
-  new google.maps.Marker({ position: MAP_OPTIONS["center"], map: map });
+  MARKER_OPTIONS.forEach(marker => {
+    new google.maps.Marker({ position: marker, map: map });
+  });
+
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
 }
