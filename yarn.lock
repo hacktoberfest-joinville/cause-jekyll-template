@@ -8259,6 +8259,11 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-magic-grid@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vue-magic-grid/-/vue-magic-grid-0.0.4.tgz#4134eab86b429c8a8879e26635720a03ac5ebdca"
+  integrity sha512-z/vxnth5gqfT9KKw/wy50GQxK4zazWVavKDzHpcB9jhNfFMTqK4tK08eudaRtDDhfafruQgmy3YDfnaZPhEhdw==
+
 vue-router@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
