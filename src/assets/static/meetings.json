@@ -1,11 +1,20 @@
 [
   {
-    "title": "",
-    "description": "",
-    "date": "",
-    "time": "",
-    "location": "",
-    "locationLink": "",
-    "externalLink": ""
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum, dolor sit amet",
+    "date": "18/10",
+    "time": "19:00",
+    "location": "Fab Lab",
+    "locationLink": "https://google.com",
+    "externalLink": "https://google.com"
+  },
+  {
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum, dolor sit amet",
+    "date": "18/10",
+    "time": "19:00",
+    "location": "Fab Lab",
+    "locationLink": "https://google.com",
+    "externalLink": "https://google.com"
   }
 ]
