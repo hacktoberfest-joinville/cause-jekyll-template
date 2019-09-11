@@ -49,7 +49,8 @@ header {
   }
 }
 
-header, nav {
+header,
+nav {
   .container {
     padding-top: 0;
     padding-bottom: 0;
@@ -120,7 +121,7 @@ blockquote {
     position: relative;
     font-size: 1.3em;
     text-align: center;
-    box-shadow: 0 20px 100px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.8);
     color: $paragraph-color;
     font-style: italic;
 
@@ -171,7 +172,8 @@ blockquote {
 }
 
 footer {
-  &, a {
+  &,
+  a {
     color: $paragraph-color;
   }
 
@@ -188,8 +190,9 @@ footer {
     padding: 0;
   }
 
-  p, address {
-    font-size: .9em;
+  p,
+  address {
+    font-size: 0.9em;
   }
 
   svg {
@@ -220,7 +223,6 @@ footer {
       margin: 20px 0;
       box-sizing: content-box;
       padding: 0 25px;
-
     }
   }
 }
@@ -240,7 +242,6 @@ footer {
     @media #{$desktop} {
       margin: 0 20px;
     }
-
 
     .image {
       height: 200px;
@@ -271,7 +272,6 @@ footer {
 }
 
 .post-title {
-
   h3 {
     margin: 0;
   }
@@ -279,7 +279,7 @@ footer {
   .date {
     padding: 0;
     margin: 0;
-    font-size: .8em;
+    font-size: 0.8em;
     color: #888;
   }
 }
@@ -303,20 +303,24 @@ footer {
     color: $white-color !important;
   }
   .container {
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       color: $white-color;
     }
   }
 }
 
 .orange {
-  background-color: #FF9A56;
+  background-color: #ff9a56;
   color: $white-color;
   p {
     color: $white-color !important;
   }
   .container {
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       color: $white-color;
     }
   }
@@ -349,12 +353,12 @@ footer {
   padding: 50px 0 50px 0;
 
   h2 {
-    color: white
+    color: white;
   }
 
   img {
     width: 350px;
-    margin: 0px 10px 0px 10px
+    margin: 0px 10px 0px 10px;
   }
 }
 
@@ -367,11 +371,15 @@ footer {
     width: 100%;
     margin: 0 10px 30px 10px;
 
-    h1, h2, h3, p {
+    h1,
+    h2,
+    h3,
+    p {
       color: $crimson-color !important;
     }
 
-    p, a {
+    p,
+    a {
       font-weight: bold;
     }
 

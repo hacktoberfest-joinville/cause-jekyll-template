@@ -35,8 +35,7 @@ collections:
 permalink: pretty
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -45,8 +44,7 @@ defaults:
         content:
           width: 1880
           height: 1880
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
