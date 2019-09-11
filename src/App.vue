@@ -1,28 +1,45 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section class="hero header-and-description">
+      <Header />
+    </section>
+
+    <!--
+      DESCRIPTION
+      AGENDA
+      LOCATIONS
+      SPONSORSHIP
+    -->
+
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'app',
   components: {
+    Header,
     HelloWorld,
   },
 };
 </script>
 
 <style lang="scss">
+@import "./assets/style/main.scss";
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $text-color;
+}
+
+.header-and-description {
+  background-image: url(https://hacktoberfest.digitalocean.com/bg-left.png), url(https://hacktoberfest.digitalocean.com/bg-right.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  padding-top: 30px;
 }
 </style>
