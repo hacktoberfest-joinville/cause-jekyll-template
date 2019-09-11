@@ -3,14 +3,12 @@
     <div class="container">
       <div class="content">
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
-        <p class="description">{{ schedule }}</p>
 
         <magic-grid :maxColWidth="350">
-          <div v-for="i in 15" :key="i">
-            <h1
-              class="title"
-              style="color: #fff; font-weight: normal; font-size: 36px; margin-top: 40px;"
-            >Spread the word!</h1>
+          <div v-for="(event, e) in schedule" :key="e">
+            <p class="description">
+              {{ event }}
+            </p>
           </div>
         </magic-grid>
       </div>
