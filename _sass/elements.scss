@@ -18,7 +18,7 @@ body {
 
 header,
 footer {
-  background-color: #582d41;
+  background-color: #0a142e;
 }
 
 img {
@@ -132,7 +132,7 @@ input[type="text"] {
 
 .button a,
 input[type="submit"] {
-  background: $amber-color;
+  background: #ffc337;
   color: $button-color;
   cursor: pointer;
   font-weight: bold;
@@ -145,6 +145,6 @@ input[type="submit"] {
   transition: 200ms ease-in background;
 
   &:hover {
-    background: darken($amber-color, 10%);
+    background: darken(#ffc337, 10%);
   }
 }
