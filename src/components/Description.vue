@@ -6,7 +6,12 @@
 
         <h2 id="whats-hacktoberfest" class="page-subtitle">O que é a Hacktoberfest?</h2>
         <p class="description">
-          Lorem ipsun dolor sit amet
+          Hacktoberfest — trazido à você pela DigitalOcean em parceria com o DEV — é uma celebração
+          ao open source que ocorre anualmente durante o mês de outubro. Os mantenedores são
+          convidados a guiar os colaboradores em questões que ajudarão no avanço do projeto, e os
+          colaboradores têm a oportunidade de ajudar os projetos que eles gostam ou que acabaram de
+          conhecer. Nenhuma contribuição é pequena demais — correções de bugs e ajustes na
+          documentação são formas válidas de participar e ajudar a comunidade.
         </p>
       </div>
     </div>
@@ -29,7 +34,7 @@ export default {
 }
 
 .page-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #fff922;
   text-align: center;
