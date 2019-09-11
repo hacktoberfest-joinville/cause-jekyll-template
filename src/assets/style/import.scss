@@ -1,8 +1,12 @@
 @import "./assets/style/variables.scss";
+
+@import "./assets/style/main.scss";
+
 @import "./assets/style/components/container.scss";
 @import "./assets/style/components/navbar.scss";
 @import "./assets/style/components/hero.scss";
 @import "./assets/style/components/column.scss";
+@import "./assets/style/components/minireset.scss";
 
 body {
   background: $background-color;

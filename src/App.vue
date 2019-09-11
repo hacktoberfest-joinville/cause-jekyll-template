@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/style/main.scss";
+@import "./assets/style/import.scss";
 
 #app {
   text-align: center;
