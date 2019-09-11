@@ -5,9 +5,9 @@
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
 
         <magic-grid :maxColWidth="350">
-          <div v-for="(event, e) in schedule" :key="e">
+          <div v-for="(meeting, e) in meetings" :key="e">
             <p class="description">
-              {{ event }}
+              {{ meeting }}
             </p>
           </div>
         </magic-grid>
@@ -20,7 +20,7 @@
 export default {
   name: 'Schedule',
   props: {
-    schedule: { type: Array, default: () => [] },
+    meetings: { type: Array, default: () => [] },
   },
 };
 </script>

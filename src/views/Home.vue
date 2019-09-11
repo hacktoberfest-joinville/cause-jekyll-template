@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- TODO: adicionar a agenda -->
-    <Schedule :schedule="schedule" />
+    <Schedule :meetings="meetings" />
 
     <!-- TODO: adicionar as localizações -->
     <!-- <Locations /> -->
@@ -10,7 +10,7 @@
 
 <script>
 import Schedule from '@/components/Schedule.vue';
-import scheduleArr from '@/assets/static/schedule.json';
+import meetings from '@/assets/static/meetings.json';
 
 export default {
   name: 'Home',
@@ -18,7 +18,7 @@ export default {
     Schedule,
   },
   data: () => ({
-    schedule: scheduleArr,
+    meetings,
   }),
 };
 </script>
