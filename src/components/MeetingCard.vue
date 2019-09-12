@@ -1,15 +1,16 @@
 <template>
   <!-- TODO: criar o card com os detalhes do evento -->
   <div class="meeting-card">
-    <h1 class="title">
-      {{ meeting.title }}
-    </h1>
+    <h1 class="title">{{ meeting.title }}</h1>
 
     <div class="body">
-      {{meeting}}
-
+      <h2 class="date">{{ meeting.date }}</h2>
+      <h4 class="date">{{ meeting.time }} - {{ meeting.time }}</h4>
+      <a style="color: #fff;" target="_blank" :href="meeting.locationLink">
+        <h4 style="color: #fff;">{{ meeting.location }}</h4>
+      </a>
       <div class="actions">
-        <button class="action-button">Saber mais</button>
+        <a :href="meeting.externalLink" target="_blank" class="action-button">Saber mais</a>
       </div>
     </div>
   </div>
@@ -41,25 +42,34 @@ export default {
   display: block;
   width: 100%;
   border: none;
-  background-color: #1f2d4f
+  background-color: #1f2d4f;
+  margin-bottom: 0;
+}
+
+.meeting-card > .body {
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.meeting-card > .body > .date {
+  color: #fff;
 }
 
 .meeting-card > .body > .actions {
   display: block;
   text-align: center;
   width: 100%;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .meeting-card > .body > .actions > .action-button {
-  border: none;
   color: #fff;
-  cursor: pointer;
-  height: 40px;
-  width: 160px;
   background-color: #a11ec6;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.5em;
+  padding: 15px 40px;
 }
 .meeting-card > .body > .actions > .action-button:hover {
   color: #39486e;
