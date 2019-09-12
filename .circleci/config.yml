@@ -1,0 +1,62 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    parallelism: 1
+    working_directory: ~/hacktoberfest
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/hacktoberfest
+      - restore_cache:
+          key: v1-yarn-{{ checksum "yarn.lock" }}
+      - run:
+          name: Installing dependencies
+          command: yarn install --frozen-lockfile
+      - save_cache:
+          key: v1-yarn-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Building project
+          command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: dist
+  deploy:
+    docker:
+      - image: circleci/node
+    parallelism: 1
+    working_directory: ~/hacktoberfest
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/hacktoberfest
+      - run:
+          name: Configure git
+          command: |
+            git config user.email "builds@circleci.com"
+            git config user.name "CircleCI"
+      - run:
+          name: Configure CNAME
+          command: echo 'hacktoberfest.joinville.br' > dist/CNAME
+      - add_ssh_keys:
+          fingerprints:
+            - "7c:4a:af:1a:1c:f6:f7:d7:77:26:9b:d8:29:c6:63:a5"
+      - run:
+          name: Deploy dist/ to master branch
+          command: npx gh-pages -t -b master -m "[skip ci] Updates" -d dist/
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: development
