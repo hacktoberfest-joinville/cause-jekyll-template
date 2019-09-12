@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- TODO: adicionar a agenda -->
     <Schedule :meetings="meetings" />
 
     <!-- TODO: adicionar as localizações -->
@@ -10,7 +9,7 @@
 
 <script>
 import Schedule from '@/components/Schedule.vue';
-import meetings from '@/assets/static/meetings.json';
+import meetings from '@/assets/content/meetings.json';
 
 export default {
   name: 'Home',

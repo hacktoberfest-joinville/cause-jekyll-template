@@ -21,6 +21,8 @@
             :to="route.path"
             class="route"
           >{{ route.name }}</router-link>
+
+          <a href="https://bit.ly/hacktoberfest-joinville-2019" target="_blank" class="route">WhatsApp</a>
         </div>
       </div>
     </div>
@@ -32,9 +34,9 @@ export default {
   name: 'Header',
   data: () => ({
     routes: [
-      { path: '/catolica', name: 'Católica' },
-      { path: '/fablab', name: 'Fab Lab' },
-      { path: '/udesc', name: 'Udesc' },
+      // { path: '/catolica', name: 'Católica' },
+      // { path: '/fablab', name: 'Fab Lab' },
+      // { path: '/udesc', name: 'Udesc' },
     ],
   }),
 };
@@ -69,21 +71,20 @@ export default {
   text-transform: uppercase;
   color: #fff;
   margin-right: 30px;
+
+  &:hover {
+    border-bottom: 2px solid #fff922;
+  }
 }
 
-.route:hover {
-  color: #fff;
-  border-bottom: 2px solid #fff922;
-}
-
-@media (max-width: 1087px) {
-  .navbar-end {
+.navbar-end {
+  @media (max-width: 1087px) {
     text-align: center;
   }
 }
 
-@media (max-width: 1087px) {
-  .navbar-brand {
+.navbar-brand {
+  @media (max-width: 1087px) {
     display: block;
     text-align: center;
   }
