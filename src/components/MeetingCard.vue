@@ -1,27 +1,32 @@
 <template>
-  <!-- TODO: criar o card com os detalhes do evento -->
   <div class="meeting-card">
     <h1 class="title">{{ meeting.title }}</h1>
 
     <div class="body">
-      <h2 class="date">{{ meeting.date }}</h2>
-      <h4 class="date">{{ meeting.time }} - {{ meeting.time }}</h4>
-      <a style="color: #fff;" target="_blank" :href="meeting.locationLink">
-        <h4 style="color: #fff;">{{ meeting.location }}</h4>
-      </a>
-      <div class="actions">
-        <a :href="meeting.externalLink" target="_blank" class="action-button">Saber mais</a>
+      <h2 style="color: #fff;">{{ meeting.date }}</h2>
+      <h4 style="color: #fff;">{{ meeting.startTime }} - {{ meeting.endTime }}</h4>
+
+      <div style="margin-bottom: 10px">
+        <ExternalLink target="_blank" :href="meeting.locationLink">
+          {{ meeting.location }}
+        </ExternalLink>
       </div>
+
+      <ExternalButton :href="meeting.externalLink" target="_blank">Saber mais</ExternalButton>
     </div>
   </div>
 </template>
 
 <script>
+import ExternalButton from '@/components/ExternalButton.vue';
+import ExternalLink from '@/components/ExternalLink.vue';
+
 export default {
   name: 'MeetingCard',
   props: {
     meeting: { type: Object, default: () => {} },
   },
+  components: { ExternalButton, ExternalLink },
 };
 </script>
 
@@ -48,41 +53,7 @@ export default {
 
 .meeting-card > .body {
   color: #fff;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-}
-
-.meeting-card > .body > .date {
-  color: #fff;
-}
-
-.meeting-card > .body > .actions {
-  display: block;
-  text-align: center;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.meeting-card > .body > .actions > .action-button {
-  color: #fff;
-  background-color: #a11ec6;
-  font-weight: bold;
-  font-size: 0.5em;
-  padding: 15px 40px;
-}
-.meeting-card > .body > .actions > .action-button:hover {
-  color: #39486e;
-  background-color: #92eaff;
-}
-@media (max-width: 1024px) {
-  .meeting-card > .body > .actions > .action-button {
-    font-size: 14px;
-  }
-}
-@media (max-width: 768px) {
-  .meeting-card > .body > .actions > .action-button {
-    font-size: 11px;
-  }
 }
 </style>
