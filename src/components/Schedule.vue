@@ -4,11 +4,12 @@
       <div class="content">
         <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
 
-        <div class="row">
+        <div class="row" v-if="Array.isArray(meetings) && meetings.length > 0">
           <div v-for="(meeting, e) in meetings" :key="e" class="col-12-sm col-4">
             <MeetingCard :meeting="meeting" />
           </div>
         </div>
+        <h3 class="no-meetings" v-else>Em breve...</h3>
       </div>
     </div>
   </div>
@@ -26,7 +27,6 @@ export default {
   },
 };
 </script>
-
 
 <style lang="scss" scoped>
 .hero-body {
@@ -50,6 +50,10 @@ export default {
   color: #ff00aa;
   border-bottom: 1px solid #ff00aa;
   padding: 30px 0 15px 0;
+}
+
+.no-meetings {
+  color: #aab2c0;
 }
 
 p.description {
