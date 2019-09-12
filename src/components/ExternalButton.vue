@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'Button',
+  name: 'ExternalButton',
   props: {
     href: { type: String, default: undefined },
     target: { type: String, default: undefined },
