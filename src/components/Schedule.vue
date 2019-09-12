@@ -2,10 +2,10 @@
   <div class="hero-body">
     <div class="container">
       <div class="content">
-        <h2 id="whats-hacktoberfest" class="page-subtitle">Agenda</h2>
+        <h2 id="schedule" class="page-subtitle">Agenda</h2>
 
-        <div class="row" v-if="Array.isArray(meetings) && meetings.length > 0">
-          <div v-for="(meeting, e) in meetings" :key="e" class="col-12-sm col-4">
+        <div class="row" v-if="showMeetings">
+          <div v-for="(meeting, e) in sortedMeetings" :key="e" class="col-12-sm col-4">
             <MeetingCard :meeting="meeting" />
           </div>
         </div>
@@ -22,8 +22,31 @@ export default {
   name: 'Schedule',
   components: { MeetingCard },
   props: {
-    // TODO: ordenar os encontros por ordem de data e hora
     meetings: { type: Array, default: () => [] },
+  },
+  computed: {
+    showMeetings() {
+      return (
+        Array.isArray(this.sortedMeetings) && this.sortedMeetings.length > 0
+      );
+    },
+    sortedMeetings() {
+      if (!this.meetings) {
+        return [];
+      }
+
+      const sortedMeetings = this.meetings;
+
+      return sortedMeetings.sort((a, b) => this.toDate(a) - this.toDate(b));
+    },
+  },
+  methods: {
+    toDate({ date, startTime }) {
+      const [day, month] = date.split('/');
+      const [hour, minute] = startTime.split(':');
+
+      return new Date(2019, month - 1, day, hour, minute);
+    },
   },
 };
 </script>
