@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "title": "4º Meetup Java Joinville",
+    "date": "03/10",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "location": "Católica de Santa Catarina",
+    "locationLink": "https://goo.gl/maps/r1jR5TvFEbpJZsaDA",
+    "externalLink": "https://www.meetup.com/javajoinville/events/265019534/"
+  }
+]
