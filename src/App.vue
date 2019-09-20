@@ -8,19 +8,21 @@
     <RouterView />
 
     <!-- TODO: adicionar os patrocinadores -->
-    <!-- <Sponsors /> -->
+    <Sponsors />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue';
 import Description from '@/components/Description.vue';
+import Sponsors from '@/components/Sponsors.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
     Description,
+    Sponsors,
   },
   computed: {
     isHome() {
