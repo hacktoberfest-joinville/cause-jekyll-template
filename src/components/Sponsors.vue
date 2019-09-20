@@ -5,41 +5,31 @@
         <h2 id="sponsors" class="page-title">Patrocinadores</h2>
 
         <div class="row">
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
+          <a
+            style="height: 6rem;"
+            class="col-12-sm col-4"
+            href="https://magrathealabs.com"
+            target="_blank"
+          >
+            <img
+              style="max-height: 100%; width: auto;"
+              src="@/assets/images/magrathea.png"
+              alt="Magrathea Labs"
+            />
+          </a>
 
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
-
-          <div class="col-12-sm col-4">
-            <img src="@/assets/images/magrathea.png" alt="Magrathea Labs">
-          </div>
+          <a
+            style="height: 6rem;"
+            class="col-12-sm col-4"
+            href="https://informant.com.br/"
+            target="_blank"
+          >
+            <img
+              style="max-height: 100%; width: auto;"
+              src="@/assets/images/informant.png"
+              alt="Informant"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -49,13 +39,6 @@
 <script>
 export default {
   name: 'Sponsors',
-  // data: () => ({
-  //   sponsors: [{
-  //     name: 'Magrathea Labs',
-  //     url: 'https://magrathealabs.com',
-  //     image: '@/assets/images/magrathea.png',
-  //   }],
-  // }),
 };
 </script>
 
@@ -74,13 +57,5 @@ export default {
   color: #ff00aa;
   border-bottom: 1px solid #ff00aa;
   padding: 30px 0 15px 0;
-}
-
-.no-sponsors {
-  color: #aab2c0;
-}
-
-p.description {
-  color: #aab2c0;
 }
 </style>
