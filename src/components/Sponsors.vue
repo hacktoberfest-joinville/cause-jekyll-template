@@ -30,6 +30,19 @@
               alt="Informant"
             />
           </a>
+
+          <a
+            style="height: 6rem;"
+            class="col-12-sm col-4"
+            href="https://vagas.hunterco.com.br/"
+            target="_blank"
+          >
+            <img
+              style="max-height: 100%; width: auto;"
+              src="@/assets/images/hunterco.png"
+              alt="HunterCo"
+            />
+          </a>
         </div>
       </div>
     </div>
