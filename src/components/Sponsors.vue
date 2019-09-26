@@ -43,6 +43,19 @@
               alt="HunterCo"
             />
           </a>
+
+          <a
+            style="height: 6rem;"
+            class="col-12-sm col-4"
+            href="http://jornadatecnologia.com/"
+            target="_blank"
+          >
+            <img
+              style="max-height: 100%; width: auto;"
+              src="@/assets/images/jornada.png"
+              alt="Jornada Educação e Tecnologia"
+            />
+          </a>
         </div>
       </div>
     </div>
