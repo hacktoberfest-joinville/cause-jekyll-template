@@ -6,7 +6,7 @@
 
         <div class="row">
           <a
-            style="height: 6rem;"
+            style="height: 6rem; text-align: center;"
             class="col-12-sm col-4"
             href="https://magrathealabs.com"
             target="_blank"
@@ -19,7 +19,7 @@
           </a>
 
           <a
-            style="height: 6rem;"
+            style="height: 6rem; text-align: center;"
             class="col-12-sm col-4"
             href="https://informant.com.br/"
             target="_blank"
@@ -32,7 +32,7 @@
           </a>
 
           <a
-            style="height: 6rem;"
+            style="height: 6rem; text-align: center;"
             class="col-12-sm col-4"
             href="https://vagas.hunterco.com.br/"
             target="_blank"
@@ -45,7 +45,7 @@
           </a>
 
           <a
-            style="height: 6rem;"
+            style="height: 6rem; text-align: center;"
             class="col-12-sm col-4"
             href="http://jornadatecnologia.com/"
             target="_blank"
@@ -58,7 +58,7 @@
           </a>
 
           <a
-            style="height: 6rem;"
+            style="height: 6rem; text-align: center;"
             class="col-12-sm col-4"
             href="https://gatilabs.com.br/"
             target="_blank"
