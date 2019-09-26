@@ -56,6 +56,19 @@
               alt="Jornada Educação e Tecnologia"
             />
           </a>
+
+          <a
+            style="height: 6rem;"
+            class="col-12-sm col-4"
+            href="https://gatilabs.com.br/"
+            target="_blank"
+          >
+            <img
+              style="max-height: 100%; width: auto;"
+              src="@/assets/images/gati.png"
+              alt="GATI Labs"
+            />
+          </a>
         </div>
       </div>
     </div>
