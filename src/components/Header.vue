@@ -4,7 +4,7 @@
       <div class="navbar-brand">
         <router-link to="/">
           <img
-            src="https://hacktoberfest.digitalocean.com/HF19_logo.png"
+            :src="require('../assets/logo.svg')"
             alt="Hacktoberfest 2019"
             class="hacktoberfest-logo"
             width="449"
@@ -15,14 +15,13 @@
       <div class="navbar-menu is-active">
         <div class="navbar-end">
           <!-- TODO: Criar as páginas para cada local de evento -->
-          <router-link
-            v-for="route in routes"
-            :key="route.name"
-            :to="route.path"
-            class="route"
-          >{{ route.name }}</router-link>
+          <router-link v-for="route in routes" :key="route.name" :to="route.path" class="route">{{
+            route.name
+          }}</router-link>
 
-          <a href="https://bit.ly/hacktoberfest-joinville-2019" target="_blank" class="route">WhatsApp</a>
+          <a href="https://bit.ly/hacktoberfest-joinville-2019" target="_blank" class="route"
+            >WhatsApp</a
+          >
         </div>
       </div>
     </div>
