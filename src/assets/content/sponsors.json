@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Magrathea Labs",
+    "url": "https://magrathealabs.com/",
+    "image": "images/magrathea.png"
+  },
+  {
+    "name": "Informant",
+    "url": "https://informant.com.br/",
+    "image": "images/informant.png"
+  },
+  {
+    "name": "HunterCo",
+    "url": "https://vagas.hunterco.com.br/",
+    "image": "images/hunterco.png"
+  },
+  {
+    "name": "Jornada Educação e Tecnologia",
+    "url": "http://jornadatecnologia.com/",
+    "image": "images/jornada.png"
+  },
+  {
+    "name": "GATI labs.",
+    "url": "https://gatilabs.com.br/",
+    "image": "images/gati.png"
+  },
+  {
+    "name": "Universidade Católica de Santa Catarina",
+    "url": "http://www.catolicasc.org.br/joinville/",
+    "image": "images/catolica.png"
+  }
+]

@@ -4,7 +4,7 @@
       <div class="navbar-brand">
         <router-link to="/">
           <img
-            :src="require('../assets/logo.svg')"
+            :src="require('@/assets/logo.svg')"
             alt="Hacktoberfest 2019"
             class="hacktoberfest-logo"
             width="449"
