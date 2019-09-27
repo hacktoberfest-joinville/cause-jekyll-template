@@ -6,7 +6,7 @@
 
         <h2 id="whats-hacktoberfest" class="page-subtitle">O que é a Hacktoberfest?</h2>
         <p class="description">
-          Hacktoberfest — trazido à você pela DigitalOcean em parceria com o DEV — é uma celebração
+          Hacktoberfest — trago à você pela DigitalOcean em parceria com o DEV — é uma celebração
           ao open source que ocorre anualmente durante o mês de outubro. Os mantenedores são
           convidados a guiar os colaboradores em questões que ajudarão no avanço do projeto, e os
           colaboradores têm a oportunidade de ajudar os projetos que eles gostam ou que acabaram de
