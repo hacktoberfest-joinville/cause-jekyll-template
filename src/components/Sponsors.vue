@@ -5,70 +5,13 @@
         <h2 id="sponsors" class="page-title">Patrocinadores</h2>
 
         <div class="row">
-          <a
-            style="height: 6rem; text-align: center;"
-            class="col-12-sm col-4"
-            href="https://magrathealabs.com"
-            target="_blank"
-          >
-            <img
-              style="max-height: 100%; width: auto;"
-              src="@/assets/images/magrathea.png"
-              alt="Magrathea Labs"
-            />
-          </a>
-
-          <a
-            style="height: 6rem; text-align: center;"
-            class="col-12-sm col-4"
-            href="https://informant.com.br/"
-            target="_blank"
-          >
-            <img
-              style="max-height: 100%; width: auto;"
-              src="@/assets/images/informant.png"
-              alt="Informant"
-            />
-          </a>
-
-          <a
-            style="height: 6rem; text-align: center;"
-            class="col-12-sm col-4"
-            href="https://vagas.hunterco.com.br/"
-            target="_blank"
-          >
-            <img
-              style="max-height: 100%; width: auto;"
-              src="@/assets/images/hunterco.png"
-              alt="HunterCo"
-            />
-          </a>
-
-          <a
-            style="height: 6rem; text-align: center;"
-            class="col-12-sm col-4"
-            href="http://jornadatecnologia.com/"
-            target="_blank"
-          >
-            <img
-              style="max-height: 100%; width: auto;"
-              src="@/assets/images/jornada.png"
-              alt="Jornada Educação e Tecnologia"
-            />
-          </a>
-
-          <a
-            style="height: 6rem; text-align: center;"
-            class="col-12-sm col-4"
-            href="https://gatilabs.com.br/"
-            target="_blank"
-          >
-            <img
-              style="max-height: 100%; width: auto;"
-              src="@/assets/images/gati.png"
-              alt="GATI Labs"
-            />
-          </a>
+          <Sponsor
+            v-for="sponsor in sponsors"
+            :key="sponsor.name"
+            :name="sponsor.name"
+            :url="sponsor.url"
+            :image="sponsor.image"
+          />
         </div>
       </div>
     </div>
@@ -76,8 +19,15 @@
 </template>
 
 <script>
+import Sponsor from '@/components/Sponsor.vue';
+import sponsors from '@/assets/content/sponsors.json';
+
 export default {
   name: 'Sponsors',
+  components: { Sponsor },
+  data: () => ({
+    sponsors,
+  }),
 };
 </script>
 
