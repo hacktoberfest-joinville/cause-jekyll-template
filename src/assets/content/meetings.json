@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "4º Meetup Java Joinville",
     "date": "03/10",
     "startTime": "19:00",
@@ -22,7 +21,7 @@
     "date": "19/10",
     "startTime": "15:00",
     "endTime": "22:00",
-    "location": "Udesc - CCT ",
+    "location": "FAB LAB - Softville",
     "locationLink": "https://goo.gl/maps/FmZ33MHj8SfX6xzJ6",
     "externalLink": "http://www.fablabjoinville.com.br/"
   },
