@@ -36,8 +36,8 @@ export default {
 @import "./assets/style/import.scss";
 
 .header-and-description {
-  background-image: url(https://hacktoberfest.digitalocean.com/bg-left.png),
-    url(https://hacktoberfest.digitalocean.com/bg-right.png);
+  background-image: url(/bg-left.png),
+    url(/bg-right.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   padding-top: 30px;
