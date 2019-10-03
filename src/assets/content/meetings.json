@@ -1,4 +1,5 @@
-[{
+[
+  {
     "title": "4º Meetup Java Joinville",
     "date": "03/10",
     "startTime": "19:00",
@@ -17,20 +18,20 @@
     "externalLink": "https://www.meetup.com/python-joinville/events/265134578"
   },
   {
-    "title": "Hacktoberfest FAB LAB",
+    "title": "Hacktoberfest - Fab Lab",
     "date": "19/10",
     "startTime": "15:00",
     "endTime": "22:00",
-    "location": "FAB LAB - Softville",
+    "location": "Fab Lab - Softville",
     "locationLink": "https://goo.gl/maps/FmZ33MHj8SfX6xzJ6",
     "externalLink": "http://www.fablabjoinville.com.br/"
   },
   {
-    "title": "Hacktoberfest UDESC",
+    "title": "Hacktoberfest - Udesc",
     "date": "25/10",
     "startTime": "14:00",
     "endTime": "22:30",
-    "location": "UDESC - CCT ",
+    "location": "Udesc - CCT",
     "locationLink": "https://goo.gl/maps/vPqfL7o9SBc3B1RKA",
     "externalLink": "https://forms.gle/qsDmC74QjFLcxK979"
   },
@@ -51,5 +52,14 @@
     "location": "Católica de Santa Catarina",
     "locationLink": "https://goo.gl/maps/r1jR5TvFEbpJZsaDA",
     "externalLink": "https://www.meetup.com/Javascript-Joinville/events/265197015/"
+  },
+  {
+    "title": "1º Meetup Open Source Joinville",
+    "date": "08/10",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "location": "Carbon Coworking",
+    "locationLink": "https://goo.gl/maps/PBPhtSzeydjqWe5e7",
+    "externalLink": "https://www.meetup.com/OpenSource-Joinville/events/264755994/"
   }
 ]
