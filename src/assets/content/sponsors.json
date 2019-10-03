@@ -28,5 +28,10 @@
     "name": "Universidade Católica de Santa Catarina",
     "url": "http://www.catolicasc.org.br/joinville/",
     "image": "images/catolica.png"
+  },
+  {
+    "name": "Resultados Digitais",
+    "url": "https://resultadosdigitais.com.br/",
+    "image": "svgs/rd.svg"
   }
 ]
