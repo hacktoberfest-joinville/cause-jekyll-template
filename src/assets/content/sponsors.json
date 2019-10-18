@@ -1,5 +1,4 @@
-[
-  {
+[{
     "name": "Magrathea Labs",
     "url": "https://magrathealabs.com/",
     "image": "images/magrathea.png"
@@ -33,5 +32,10 @@
     "name": "Resultados Digitais",
     "url": "https://resultadosdigitais.com.br/",
     "image": "svgs/rd.svg"
+  },
+  {
+    "name": "brainn.co",
+    "url": "https://brainn.co/",
+    "image": "images/brainn.co.png"
   }
 ]
