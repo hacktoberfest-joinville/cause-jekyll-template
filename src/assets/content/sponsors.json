@@ -37,5 +37,16 @@
     "name": "brainn.co",
     "url": "https://brainn.co/",
     "image": "images/brainn.co.png"
+  },
+  {
+    "name": "Neogrid",
+    "url": "https://www.neogrid.com/br",
+    "image": "images/neogrid.png"
+  },
+  {
+    "name": "Teken",
+    "url": "https://www.teken.com.br/",
+    "image": "images/teken.png"
   }
+
 ]
