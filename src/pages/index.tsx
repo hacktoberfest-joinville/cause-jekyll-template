@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
-import Main from "../components/Main"
-import SEO from "../components/SEO"
-import GlobalStyles from "../styles/global"
+import Main from '../components/Main'
+import SEO from '../components/SEO'
+import GlobalStyles from '../styles/global'
 
 const Home = () => {
   return (
