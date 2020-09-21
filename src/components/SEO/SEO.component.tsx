@@ -39,6 +39,16 @@ const SEO = () => (
       />
       <meta name="twitter:image" content="/assets/og-hf-teaser.png" />
       <meta name="twitter:url" content="https://hacktoberfest.joinville.br/" />
+
+      {/* Fonts */}
+      <link
+        href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+        rel="stylesheet"
+      ></link>
     </Helmet>
   </>
 )
