@@ -6,10 +6,12 @@ export const Wrapper = styled.div`
   width: 100%;
   padding: 0 1rem;
 
-  text-align: center;
+
 `
 
 export const Title = styled.h1`
+  text-align: center;
+
   @media (max-width: 1400px) {
     max-width: 80%;
     margin: 0px auto 0 !important;
@@ -25,4 +27,13 @@ export const Title = styled.h1`
     font-size: 36px !important;
     line-height: 44px !important;
   }
+`
+
+export const List = styled.div`
+  margin: 0 auto;
+  max-width: 80rem;
+  width: 100%;
+  padding: 0 1rem;
+
+  text-align: left;
 `

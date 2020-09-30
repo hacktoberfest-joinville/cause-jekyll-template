@@ -1,10 +1,58 @@
 [
   {
     "title": "Sprint Querido Diário",
-    "shortDescription": "",
+    "shortDescription": "O Querido Diário é um projeto de código aberto da Open Knowledge Brasil (OKBR) que vai usar a tecnologia para libertar e centralizar as informações publicadas nos diários oficiais dos municípios, hoje presas em PDFs obscuros de acesso complicado.",
     "date": "10/10",
     "startTime": "09:00",
     "endTime": "19:00",
     "externalLink": "https://www.meetup.com/pt-BR/data-science-joinville/events/273488160"
+  },
+  {
+    "title": "7º Meetup Java Joinville - Clojure",
+    "shortDescription": "Venha conhecer a linguagem Clojure, e como o Nubank usa ela para manter sua infraestrutura de forma imutável!",
+    "date": "14/10",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "externalLink": "https://www.meetup.com/pt-BR/javajoinville/events/273612524/"
+  },
+  {
+    "title": "5º Meetup de Ruby em Joinville",
+    "shortDescription": "Venha aprender sobre formas de contribuição com open-source e ferramentas para facilitar a vida!",
+    "date": "15/10",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "externalLink": "https://www.meetup.com/pt-BR/Ruby-Joinville/events/273612606/"
+  },
+  {
+    "title": "Coding Dojo Python Joinville",
+    "shortDescription": "A galera da comunidade Python vai se reuinir para resolver desafios de código juntos!",
+    "date": "17/10",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "externalLink": "https://www.meetup.com/pt-BR/python-joinville/events/273593763"
+  },
+  {
+    "title": "18º encontro da comunidade",
+    "shortDescription": "Neste encontro da comunidade vamos falar sobre Apache Kafka e AWS Sage ",
+    "date": "21/10",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "externalLink": "https://www.meetup.com/pt-BR/data-science-joinville/events/273612376"
+  },
+  {
+    "title": "8º Meetup Java Joinville - Kotlin",
+    "shortDescription": "O Kotlin vem dominando o coração da galera e dando uma nova vida a comunidade Java. Venha conhecer esta linguagem!",
+    "date": "27/10",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "externalLink": "https://www.meetup.com/pt-BR/javajoinville/events/273613945/"
+  },
+  {
+    "title": "O que é Polkadot?",
+    "shortDescription": "Venha conhecer o Polkadot e a ambiciosa ideia da nova web!",
+    "date": "29/10",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "externalLink": "https://www.meetup.com/pt-BR/Blockchain-Joinville/events/273612259"
   }
 ]

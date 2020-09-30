@@ -8,7 +8,15 @@ const Agenda = () => (
     <S.Title>Agenda</S.Title>
 
     {agenda.map(event => (
-      <span key={event.title}>{event.title}</span>
+      <S.List key={event.title}>
+        <h3 key={event.title}>
+          <a href={event.externalLink}>{event.title}</a>
+        </h3>
+        <p><strong>{event.date}: {event.startTime} - {event.endTime}</strong></p>
+        <p key={event.shortDescription}>
+          {event.shortDescription}
+        </p>
+      </S.List>
     ))}
   </S.Wrapper>
 )
