@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Main from '../components/Main'
+import Header from '../components/Header'
 import SEO from '../components/SEO'
 import GlobalStyles from '../styles/global'
 
@@ -10,7 +10,9 @@ const Home = () => {
       <SEO />
       <GlobalStyles />
 
-      <Main />
+      <Header />
+      {/* <Navbar /> */}
+      {/* <Main /> */}
     </>
   )
 }

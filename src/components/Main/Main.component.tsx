@@ -2,13 +2,9 @@ import React from 'react'
 
 import * as S from './Main.styles'
 
-const Main = ({
-  title = 'Hacktoberfest Joinville - 2020',
-  description = '',
-}) => (
+const Main = ({ title = 'Hacktoberfest Joinville - 2020' }) => (
   <S.Wrapper>
-    <S.Title>{title}</S.Title>
-    <S.Description>{description}</S.Description>
+    <h1>{title}</h1>
   </S.Wrapper>
 )
 
