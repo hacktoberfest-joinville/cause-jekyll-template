@@ -32,7 +32,7 @@ export const Content = styled.div`
 export const ComingSoon = styled.h4`
   font-family: 'yellowtail', serif;
   color: #072540;
-  font-size: 48px;
+  font-size: 70px;
   transform: rotate(-5deg);
   margin: 0;
 `
