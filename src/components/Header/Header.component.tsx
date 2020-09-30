@@ -16,10 +16,8 @@ const Header = () => (
         <S.Highlight>um pull request</S.Highlight> por vez.
       </S.Title>
       <S.Description>
-        Hacktoberfest encourages participation in the open source community,
-        which grows bigger every year. Complete the 2020 challenge and earn a
-        limited edition T-shirt.{' '}
-        <strong>Be the first to know when Hacktoberfest 2020 launches.</strong>
+        Pensar numa descrição.{' '}
+        <strong>#GoodFirstIssue #Hacktoberfest #MakersNetwork</strong>
       </S.Description>
     </S.Content>
     <S.ImageGallery />
