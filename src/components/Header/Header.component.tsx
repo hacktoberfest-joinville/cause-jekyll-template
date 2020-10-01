@@ -14,10 +14,10 @@ const Header = () => (
         <br /><br />
         <S.Title>
           O open source está mudando o mundo -{' '}
-          <S.Highlight>um pull request</S.Highlight> por vez.
+          um pull request por vez.
         </S.Title>
         <S.Description>
-          <strong>#GoodFirstIssue #Hacktoberfest #MakersNetwork</strong>
+          <h2><a href="https://organize.mlh.io/participants/events/4286-hacktoberfest-joinville">REGISTRE-SE AQUI!</a></h2>
         </S.Description>
       </S.Content>
     <S.ImageGallery />
