@@ -5,8 +5,6 @@ export const Wrapper = styled.div`
   max-width: 80rem;
   width: 100%;
   padding: 0 1rem;
-
-
 `
 
 export const Title = styled.h1`
@@ -36,4 +34,10 @@ export const List = styled.div`
   padding: 0 1rem;
 
   text-align: left;
+`
+export const Line = styled.div`
+  width: 100%;
+  border: 1px solid #e6e9eb;
+  margin: 25px auto;
+  padding: 0 30px;
 `
