@@ -1,0 +1,56 @@
+[
+  {
+    "key": "alan",
+    "name": "Alan Fachini",
+    "externalLink": "https://alfakini.com/",
+    "photo": "/assets/alan.jpg"
+  },
+  {
+    "key": "ariane",
+    "name": "Ariane Rocha",
+    "externalLink": "https://www.linkedin.com/in/arianerocha/",
+    "photo": "/assets/ariane.jpg"
+  },
+  {
+    "key": "cuchi",
+    "name": "Paulo Cuchi",
+    "externalLink": "https://cuchi.me/",
+    "photo": "/assets/cuchi.jpg"
+  },
+  {
+    "key": "gabu",
+    "name": "Gabriel Bellon",
+    "externalLink": "https://www.gabubellon.me/",
+    "photo": "/assets/gabu.png"
+  },
+  {
+    "key": "mugres",
+    "name": "Murilo Nascimento",
+    "externalLink": "https://www.linkedin.com/in/muriloon/",
+    "photo": "/assets/mugres.jpg"
+  },
+  {
+    "key": "kamila",
+    "name": "Kamila Camargo",
+    "externalLink": "https://www.linkedin.com/in/kamila-camargo/",
+    "photo": "/assets/kamila.jpg"
+  },
+  {
+    "key": "lauro",
+    "name": "Lauro Gripa Neto",
+    "externalLink": "https://www.linkedin.com/in/laurogripa/",
+    "photo": "/assets/lauro.jpg"
+  },
+  {
+    "key": "castilhos",
+    "name": "Henrique de Castilhos",
+    "externalLink": "https://github.com/castilh0s",
+    "photo": "/assets/castilhos.jpg"
+  },
+  {
+    "key": "gasparini",
+    "name": "Vinicius Gasparini",
+    "externalLink": "https://www.linkedin.com/in/gasparinivinicius/",
+    "photo": "/assets/gasparini.png"
+  }
+]

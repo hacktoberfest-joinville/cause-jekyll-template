@@ -89,3 +89,19 @@ export const Description = styled.p`
     margin: 20px auto 0;
   }
 `
+
+export const Button = styled.a`
+  border-radius: 60px;
+  background: #9c4668;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+  transition-duration: 0.4s;
+  margin: 30px 0;
+  font-size: 32px;
+  color: #000 !important;
+
+  :hover {
+    background: #072540;
+    text-decoration: none;
+  }
+`

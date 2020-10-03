@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Agenda from '../components/Agenda'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import SEO from '../components/SEO'
@@ -11,10 +12,11 @@ const Home = () => {
     <>
       <SEO />
       <GlobalStyles />
-
+      {/* <Main /> */}
       <Header />
       {/* <Navbar /> */}
       <Agenda />
+      <Footer />
     </>
   )
 }
