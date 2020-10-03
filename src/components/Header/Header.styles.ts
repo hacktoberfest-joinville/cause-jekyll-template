@@ -92,7 +92,7 @@ export const Description = styled.p`
 
 export const Button = styled.a`
   border-radius: 60px;
-  background: #9c4668;
+  background: #072540;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
   transition-duration: 0.4s;
@@ -101,7 +101,7 @@ export const Button = styled.a`
   color: #000 !important;
 
   :hover {
-    background: #072540;
+    background: #0e4a7f;
     text-decoration: none;
   }
 `
