@@ -46,9 +46,14 @@ export const ImageLink = styled.a`
   margin: 8px;
 `
 
-export const Image = styled.img`
+export const ProfilePicture = styled.img`
   border-radius: 16px;
   margin: 8px;
-  background: #9c4668;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.07);
+`
+
+export const Image = styled.img`
+  max-width: 512px;
+  max-height: 256px;
+  margin: 8px;
 `

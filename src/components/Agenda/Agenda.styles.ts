@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h1`
   text-align: center;
+  margin: 16px;
 
   @media (max-width: 1400px) {
     max-width: 80%;
