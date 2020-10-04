@@ -105,3 +105,15 @@ export const Button = styled.a`
     text-decoration: none;
   }
 `
+
+export const ImageLink = styled.a`
+  margin: 8px;
+`
+
+export const Image = styled.img`
+  border-radius: 16px;
+  margin: 8px;
+  background: #9c4668;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.07);
+  width: 25%;
+`

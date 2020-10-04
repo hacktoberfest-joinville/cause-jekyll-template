@@ -23,6 +23,24 @@ const Header = () => (
           </a>
         </S.Button>
       </S.Content>
+      <S.ImageGallery />
+      <h2>
+        Neste ano, nosso principal canal de comunição será o
+        <a href="https://discord.gg/" target="_blank">
+          {' '}
+          Discord{' '}
+        </a>
+        da
+        <a href="https://discord.gg/fBjKFca" target="_blank">
+          {' '}
+          Makers Network{' '}
+        </a>
+        .
+      </h2>
+      <S.ImageLink href="https://discord.gg/fBjKFca" target="_blank">
+        <S.Image src="/assets/qrcode.png" alt="Discord MakersNetwork" />
+      </S.ImageLink>
+      <S.ImageGallery />
     </S.Content>
     <S.ImageGallery />
   </S.Header>
