@@ -1,5 +1,13 @@
 [
   {
+    "title": "Abertura",
+    "shortDescription": "Vamos abrir os trabalho de outubro com uma live do Código Falado! Quer entender o que é o Hacktoberfest Joinville? O que é o Fab Lab e a Makers Network? Vem pra live com a gente!",
+    "date": "05/10",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "externalLink": "https://www.twitch.tv/codigofalado"
+  },
+  {
     "title": "Sprint Querido Diário",
     "shortDescription": "O Querido Diário é um projeto de código aberto da Open Knowledge Brasil (OKBR) que vai usar a tecnologia para libertar e centralizar as informações publicadas nos diários oficiais dos municípios, hoje presas em PDFs obscuros de acesso complicado.",
     "date": "10/10",
