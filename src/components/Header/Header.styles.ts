@@ -32,7 +32,7 @@ export const Content = styled.div`
 export const ComingSoon = styled.h4`
   font-family: 'yellowtail', serif;
   color: #072540;
-  font-size: 48px;
+  font-size: 70px;
   transform: rotate(-5deg);
   margin: 0;
 `
@@ -88,4 +88,32 @@ export const Description = styled.p`
     max-width: 80%;
     margin: 20px auto 0;
   }
+`
+
+export const Button = styled.a`
+  border-radius: 60px;
+  background: #072540;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+  transition-duration: 0.4s;
+  margin: 30px 0;
+  font-size: 32px;
+  color: #000 !important;
+
+  :hover {
+    background: #0e4a7f;
+    text-decoration: none;
+  }
+`
+
+export const ImageLink = styled.a`
+  margin: 8px;
+`
+
+export const Image = styled.img`
+  border-radius: 16px;
+  margin: 8px;
+  background: #9c4668;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.07);
+  width: 25%;
 `
