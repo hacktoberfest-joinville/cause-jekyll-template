@@ -3,9 +3,17 @@
     "title": "Abertura",
     "shortDescription": "Vamos abrir os trabalho de outubro com uma live do Código Falado! Quer entender o que é o Hacktoberfest Joinville? O que é o Fab Lab e a Makers Network? Vem pra live com a gente!",
     "date": "05/10",
-    "startTime": "19:00",
-    "endTime": "20:00",
+    "startTime": "20:00",
+    "endTime": "21:00",
     "externalLink": "https://www.twitch.tv/codigofalado"
+  },
+  {
+    "title": "Live Coding: Como contribuir com o 'Sistema de agendamento para testes rápidos de COVID-19'",
+    "shortDescription": "Nos encontraremos no Discord para aprender um pouco mais sobre o sistema de agendamento de testes rápidos de COVID-19 usado em Joinville. Um sistema feito de maneira totalmente voluntária e com código aberto!",
+    "date": "06/10",
+    "startTime": "20:00",
+    "endTime": "21:00",
+    "externalLink": "https://discord.gg/fBjKFca"
   },
   {
     "title": "Sprint Querido Diário",
@@ -46,6 +54,14 @@
     "startTime": "19:00",
     "endTime": "21:00",
     "externalLink": "https://www.meetup.com/pt-BR/data-science-joinville/events/273612376"
+  },
+  {
+    "title": "BRUTE - Clash of Code",
+    "shortDescription": "O BRUTE, grupo de programação competitiva da UDESC, irá agitar uma tarde desafiadora mediando o Clash of Code, uma competição de código eletrizante. Para os mais novos na área, terá live coding no Discord e para os mais experientes fica o convite para se divertirem competindo.",
+    "date": "24/10",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "externalLink": "https://discord.gg/fBjKFca"
   },
   {
     "title": "8º Meetup Java Joinville - Kotlin",
