@@ -25,7 +25,7 @@ const Header = () => (
       </S.Content>
       <S.ImageGallery />
       <h2>
-        Neste ano, nosso principal canal de comunição será o
+        Neste ano, nosso principal canal de comunicação será o
         <a href="https://discord.gg/" target="_blank">
           {' '}
           Discord{' '}
